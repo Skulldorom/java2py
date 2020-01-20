@@ -1,4 +1,5 @@
 package Javapy;
+import java.util.Scanner;
 
 public class Java2py{
 
