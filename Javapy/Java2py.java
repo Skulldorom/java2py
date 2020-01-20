@@ -1,12 +1,13 @@
-package javapy;
+package Javapy;
 
-public class java2py{
+public class Java2py{
 
     public static void print(final String string) {
     System.out.println(string);
   }
 
   public static String input() {
-      return System.console().readLine();
+      Scanner scan = new Scanner(System.in);
+      return scan.next();
     }
 }
