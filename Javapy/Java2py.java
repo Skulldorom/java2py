@@ -7,8 +7,23 @@ public class Java2py{
     System.out.println(string);
   }
 
-  public static String input() {
-      Scanner scan = new Scanner(System.in);
-      return scan.next();
+  public static class input {
+    /**
+    Used to Print lines like python
+    @param int,string,float can be used
+    */
+    static Scanner scan = new Scanner(System.in);
+
+    public static String Str() {
+      return scan.nextLine();
     }
+
+    public static int Int() {
+      return scan.nextInt();
+    }
+
+    public static float Flout() {
+      return scan.nextFloat();
+    }
+  }
 }
